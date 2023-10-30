@@ -7,8 +7,8 @@ const _ = require('lodash');
 module.exports = {
   name: 'dotnet',
   config: {
-    version: '2.1',
-    supported: ['3.1', '2.1'],
+    version: '7.0',
+    supported: ['8.0','7.0', '6.0', '5.0','3.1', '2.1'],
     patchesSupported: false,
     command: 'tail -f /dev/null',
     path: [
